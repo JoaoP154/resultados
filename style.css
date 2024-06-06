@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
-} 
+}
+
 :root {
     font-size: 62.5%;
     --resultado-bg: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
@@ -50,3 +51,15 @@ body {
     margin-bottom: 2.4rem;
 }
 
+.resultado div strong:nth-of-type(1) {
+    font-size: 5.6rem;
+    font-weight: 800;
+    line-height: 7.2rem;
+}
+
+.resultado div strong:nth-of-type(2) {
+    color: var(--light-blue);
+} 
+
+.resultado h2 {
+    font-size: 2.4rem;
